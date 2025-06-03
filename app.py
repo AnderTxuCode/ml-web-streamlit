@@ -21,7 +21,6 @@ class_dict = {
 def main():
     st.title("Iris Flower Classifier")
 
-    # Input fields
     st.header("Enter Feature Values")
     val1 = st.number_input("Sepal Length (cm)", min_value=0.0, step=0.1)
     val2 = st.number_input("Sepal Width (cm)", min_value=0.0, step=0.1)
